@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "kenjis/ci-phpunit-test": "^0.18.0",
+        "symfony/var-dumper": "^5.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "picqer/php-barcode-generator": "^2.0",
+        "phpoffice/phpspreadsheet": "^1.12",
+        "endroid/qr-code": "^3.8",
+        "phpoffice/phpword": "^0.17.0",
+        "mpdf/mpdf": "^8.0",
+        "lbuchs/webauthn": "dev-master"
+    }
+}

@@ -1,0 +1,125 @@
+hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conto2 {
+        width: 50px;
+        float: left;
+    }
+
+    .conto4 {
+
+        float: left;
+    }
+
+
+    .pl-30 {
+        padding-left: 30px !important;
+    }
+
+    .table thead tr th,
+    .table tbody tr td {
+        border: none;
+    }
+
+    .text-danger,
+    .text-success {
+        font-weight: bold;
+    }
+
+    .quadratura_container {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .js_quadratura {
+
+        padding: 10px 0 0px;
+    }
+
+    .js_quadratura .warning,
+    .js_quadratura_iva .warning {
+        font-weight: 600;
+        color: #F00;
+    }
+
+    .quadratura_titolo,
+    .js_squadratura,
+    .js_totale_dare,
+    .js_totale_avere,
+    .js_squadratura_iva,
+    .js_totale_iva_atteso,
+    .js_totale_iva_attuale {
+        font-size: 15px;
+
+    }
+
+    .eur_sign {
+        font-size: 15px;
+
+    }
+
+    .js_squadratura,
+    .js_totale_dare,
+    .js_totale_avere {
+        margin-left: 5px;
+    }
+
+    .input_container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    :root {
+        --smallzoom-val: 0.90;
+    }
+
+    .small label,
+    .small input {
+        /* -moz-transform: scale(var(--smallzoom-val));
+        -webkit-transform: scale(var(--smallzoom-val));
+        -o-transform: scale(var(--smallzoom-val));
+        -ms-transform: scale(var(--smallzoom-val));
+        transform: scale(var(--smallzoom-val)); */
+    }
+
+    .ui-autocomplete {
+        z-index: 99999;
+    }
+
+    .registrazioni_container {
+        margin-top: 30px;
+        border: 1px solid #cecece;
+        padding: 5px 10px;
+    }
+
+    .js_riga_registrazione .js_riga_registrazione_causale_container {
+        display: none;
+
+    }
+
+    .eur_sign {
+        margin-right: 10px;
+    }
+
+
+    @keyframes flickerAnimation { /* flame pulses */
+        0%   { background-color: #6f42c122; }
+        50%  { background-color: #FFFFFF; }
+        100% { background-color: #6f42c122; }
+        }
+        /* .animate-flicker {
+            opacity:1;  
+            animation: flickerAnimation 1s infinite;
+        } */
+    .js_modello {
+        animation: flickerAnimation 5s infinite;
+        border: 2px dotted #6f42c1;
+        
+    }
+    .js_nome_modello_container {
+        display:none;
+    }

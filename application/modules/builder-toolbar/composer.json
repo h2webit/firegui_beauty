@@ -1,0 +1,5 @@
+{
+    "require": {
+        "seunmatt/codeigniter-log-viewer": "^1.1"
+    }
+}
